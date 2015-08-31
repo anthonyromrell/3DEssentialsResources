@@ -1,0 +1,135 @@
+fileFormatVersion: 2
+guid: bef8160cc02944f209ee00d22f5cba06
+ModelImporter:
+  serializedVersion: 16
+  fileIDToRecycleName:
+    100000: ball_baseJ
+    100002: ball_distance_botLocator
+    100004: ball_distance_topLocator
+    100006: ball_distanceDim
+    100008: ball_ikHandle
+    100010: ball_main_ctrl
+    100012: ball_parts
+    100014: Ball_parts_grp
+    100016: ball_rotate_ctrl
+    100018: Ball_spine_A_space1
+    100020: Ball_spine_B_space1
+    100022: Ball_spine_C_space1
+    100024: Ball_spine_D_space1
+    100026: ball_SQ_base_ctrl
+    100028: ball_SQ_mid_ctrl
+    100030: ball_SQ_mid_ctrl_space
+    100032: ball_SQ_tip_ctrl
+    100034: Ball_tail_A_ctrl
+    100036: Ball_tail_B_ctrl
+    100038: Ball_tail_C_ctrl
+    100040: Ball_tail_D_ctrl
+    100042: ball_tipJ
+    100044: //RootNode
+    100046: cluster1Handle
+    100048: cluster_offset_grp
+    100050: ffd1Base
+    100052: ffd1Lattice
+    100054: nurbsSphere1_normalConstraint1
+    100056: Scale
+    100058: Tail1
+    100060: Tail2
+    100062: Tail3
+    100064: Tail4
+    100066: Tail5
+    100068: Tail_base
+    100070: Tail_parent_space
+    100072: Translate
+    400000: ball_baseJ
+    400002: ball_distance_botLocator
+    400004: ball_distance_topLocator
+    400006: ball_distanceDim
+    400008: ball_ikHandle
+    400010: ball_main_ctrl
+    400012: ball_parts
+    400014: Ball_parts_grp
+    400016: ball_rotate_ctrl
+    400018: Ball_spine_A_space1
+    400020: Ball_spine_B_space1
+    400022: Ball_spine_C_space1
+    400024: Ball_spine_D_space1
+    400026: ball_SQ_base_ctrl
+    400028: ball_SQ_mid_ctrl
+    400030: ball_SQ_mid_ctrl_space
+    400032: ball_SQ_tip_ctrl
+    400034: Ball_tail_A_ctrl
+    400036: Ball_tail_B_ctrl
+    400038: Ball_tail_C_ctrl
+    400040: Ball_tail_D_ctrl
+    400042: ball_tipJ
+    400044: //RootNode
+    400046: cluster1Handle
+    400048: cluster_offset_grp
+    400050: ffd1Base
+    400052: ffd1Lattice
+    400054: nurbsSphere1_normalConstraint1
+    400056: Scale
+    400058: Tail1
+    400060: Tail2
+    400062: Tail3
+    400064: Tail4
+    400066: Tail5
+    400068: Tail_base
+    400070: Tail_parent_space
+    400072: Translate
+    7400000: Take 001
+    9500000: //RootNode
+  materials:
+    importMaterials: 1
+    materialName: 0
+    materialSearch: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    optimizeGameObjects: 0
+    motionNodeName: 
+    animationCompression: 1
+    animationRotationError: .5
+    animationPositionError: .5
+    animationScaleError: .5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    clipAnimations: []
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1
+    meshCompression: 0
+    addColliders: 0
+    importBlendShapes: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    weldVertices: 1
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+  tangentSpace:
+    normalSmoothAngle: 60
+    splitTangentsAcrossUV: 1
+    normalImportMode: 0
+    tangentImportMode: 1
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    human: []
+    skeleton: []
+    armTwist: .5
+    foreArmTwist: .5
+    upperLegTwist: .5
+    legTwist: .5
+    armStretch: .0500000007
+    legStretch: .0500000007
+    feetSpacing: 0
+    rootMotionBoneName: 
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 2
+  additionalBone: 0
+  userData: 
