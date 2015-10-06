@@ -22,7 +22,7 @@ for ( $i = 0 ; $i < $theArraySize; $i++ )
     $theJointOrientaion = $theJoints[$i] + ".jointOrient";
     $theGroupRotation = $theJoints[$i] + "_GRP.rotate";
     connectAttr $theJointOrientaion $theGroupRotation;
-    
+   
     $theCircleRotation = $theJoints[$i] + "_CTRL.rotate";
     $theJointRotation = $theJoints[$i] + ".rotate";
     connectAttr $theCircleRotation $theJointRotation;
@@ -31,3 +31,4 @@ for ( $i = 0 ; $i < $theArraySize; $i++ )
     move -rpr $theTransForm[0] $theTransForm[1] $theTransForm[2];
     makeIdentity -apply true -t 1;
 }
+
