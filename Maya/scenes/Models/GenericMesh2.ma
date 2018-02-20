@@ -56306,4 +56306,8 @@ connectAttr "pSphereShape2.iog" ":initialShadingGroup.dsm" -na;
 connectAttr "groupId70.msg" ":initialShadingGroup.gn" -na;
 connectAttr "groupId71.msg" ":initialShadingGroup.gn" -na;
 // End of GenericMesh2.ma
+<<<<<<< HEAD
 >>>>>>> RefactorRex2
+=======
+>>>>>>> 35fdad4... 2.1 Mesh with UVs
+>>>>>>> master
