@@ -1,4 +1,5 @@
 <<<<<<< HEAD
+<<<<<<< HEAD
 //Maya ASCII 2016R2 scene
 //Name: GenericMesh2.ma
 //Last modified: Sun, May 14, 2017 06:59:47 PM
@@ -33100,6 +33101,8 @@ connectAttr "groupId94.msg" ":initialShadingGroup.gn" -na;
 connectAttr "groupId95.msg" ":initialShadingGroup.gn" -na;
 // End of GenericMesh2.ma
 =======
+=======
+>>>>>>> 35fdad4... 2.1 Mesh with UVs
 //Maya ASCII 2016R2 scene
 //Name: GenericMesh2.ma
 //Last modified: Thu, Oct 27, 2016 11:56:29 PM
@@ -56307,7 +56310,10 @@ connectAttr "groupId70.msg" ":initialShadingGroup.gn" -na;
 connectAttr "groupId71.msg" ":initialShadingGroup.gn" -na;
 // End of GenericMesh2.ma
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> RefactorRex2
 =======
 >>>>>>> 35fdad4... 2.1 Mesh with UVs
 >>>>>>> master
+=======
+>>>>>>> 35fdad4... 2.1 Mesh with UVs
