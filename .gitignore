@@ -1,0 +1,6 @@
+
+*.DS_Store
+
+*.ZPR
+
+Maya/scripts/.idea/.idea.scripts.dir/.idea/
