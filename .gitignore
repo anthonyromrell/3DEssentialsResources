@@ -4,3 +4,7 @@
 *.ZPR
 
 Maya/scripts/.idea/.idea.scripts.dir/.idea/
+
+*.spp
+
+*.painter_lock
