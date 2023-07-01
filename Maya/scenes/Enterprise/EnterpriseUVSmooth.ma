@@ -1,6 +1,6 @@
 //Maya ASCII 2023 scene
 //Name: EnterpriseUVSmooth.ma
-//Last modified: Sat, Jul 01, 2023 12:17:52 AM
+//Last modified: Sat, Jul 01, 2023 12:24:49 AM
 //Codeset: UTF-8
 requires maya "2023";
 requires "stereoCamera" "10.0";
@@ -11,18 +11,18 @@ fileInfo "product" "Maya 2023";
 fileInfo "version" "2023";
 fileInfo "cutIdentifier" "202202161415-df43006fd3";
 fileInfo "osv" "Mac OS X 10.16";
-fileInfo "UUID" "18F42189-5547-509B-1120-0D949528B625";
+fileInfo "UUID" "3AAF69B2-7844-CE42-0990-23BBBB3155ED";
 createNode transform -s -n "persp";
 	rename -uid "7FFEC744-7B43-5E7A-6191-CBA3727A4918";
 	setAttr ".v" no;
-	setAttr ".t" -type "double3" 11.404284711650561 -1.3195067891169217 25.131955278086462 ;
-	setAttr ".r" -type "double3" 14.661647267569689 1824.9999999999536 0 ;
+	setAttr ".t" -type "double3" -5.7335968272843925 -12.645794099458959 30.172189849090575 ;
+	setAttr ".r" -type "double3" 31.461647267549591 1788.9999999997094 -4.0501051915350517e-16 ;
 createNode camera -s -n "perspShape" -p "persp";
 	rename -uid "32BA3EFD-A044-AA01-A432-61915BFAB30B";
 	setAttr -k off ".v" no;
 	setAttr ".pze" yes;
 	setAttr ".fl" 34.999999999999986;
-	setAttr ".coi" 27.893107602614741;
+	setAttr ".coi" 35.227720583537518;
 	setAttr ".imn" -type "string" "persp";
 	setAttr ".den" -type "string" "persp_depth";
 	setAttr ".man" -type "string" "persp_mask";
