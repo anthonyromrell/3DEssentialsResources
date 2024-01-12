@@ -1,6 +1,6 @@
 //Maya ASCII 2023 scene
 //Name: RobotArm.ma
-//Last modified: Thu, Jan 11, 2024 04:57:56 PM
+//Last modified: Thu, Jan 11, 2024 06:08:10 PM
 //Codeset: UTF-8
 requires maya "2023";
 requires -nodeType "aiOptions" -nodeType "aiAOVDriver" -nodeType "aiAOVFilter" "mtoa" "5.2.1.1";
@@ -10,21 +10,21 @@ fileInfo "product" "Maya 2023";
 fileInfo "version" "2023";
 fileInfo "cutIdentifier" "202211021031-847a9f9623";
 fileInfo "osv" "Mac OS X 10.16";
-fileInfo "UUID" "DE904F5C-9343-9DB3-650F-51BE1F8A1CBF";
+fileInfo "UUID" "27D23F28-D14B-13E9-1C9D-FDB9A5D56355";
 createNode transform -s -n "persp";
 	rename -uid "E7D5DDDF-1F4D-D00B-5F77-D09A02BD6BE5";
 	setAttr ".v" no;
-	setAttr ".t" -type "double3" 20.17793128914094 11.939881850656578 -15.936361723230188 ;
-	setAttr ".r" -type "double3" -14.738352709447552 -2399.7999999999661 0 ;
+	setAttr ".t" -type "double3" 14.842608704758344 14.697684510774145 -18.826931710435158 ;
+	setAttr ".r" -type "double3" -23.138352709535219 -2385.3999999996959 0 ;
 createNode camera -s -n "perspShape" -p "persp";
 	rename -uid "23F3B796-0C45-CA4B-4ABE-DA84AFCDFAE8";
 	setAttr -k off ".v" no;
 	setAttr ".fl" 34.999999999999986;
-	setAttr ".coi" 24.140955094493375;
+	setAttr ".coi" 22.669133246678186;
 	setAttr ".imn" -type "string" "persp";
 	setAttr ".den" -type "string" "persp_depth";
 	setAttr ".man" -type "string" "persp_mask";
-	setAttr ".tp" -type "double3" 0 5.7982935178129305 -4.1925252753400022 ;
+	setAttr ".tp" -type "double3" 0 5.7897864937886263 -4.1901314483544416 ;
 	setAttr ".hc" -type "string" "viewSet -p %camera";
 createNode transform -s -n "top";
 	rename -uid "328E891C-0342-582B-EA97-69951F001C6D";
