@@ -1,6 +1,6 @@
 //Maya ASCII 2023 scene
 //Name: RobotArm.ma
-//Last modified: Thu, Feb 08, 2024 10:48:56 PM
+//Last modified: Sat, Feb 10, 2024 07:38:37 PM
 //Codeset: UTF-8
 requires maya "2023";
 requires -nodeType "aiOptions" -nodeType "aiAOVDriver" -nodeType "aiAOVFilter" "mtoa" "5.2.1.1";
@@ -10,11 +10,11 @@ fileInfo "product" "Maya 2023";
 fileInfo "version" "2023";
 fileInfo "cutIdentifier" "202211021031-847a9f9623";
 fileInfo "osv" "Mac OS X 10.16";
-fileInfo "UUID" "F0BB7E8B-6C4F-BD5E-AEBB-A9A04595BFC1";
+fileInfo "UUID" "0C3FFC55-A946-3F9B-CBDE-708F943E815D";
 createNode transform -s -n "persp";
 	rename -uid "E7D5DDDF-1F4D-D00B-5F77-D09A02BD6BE5";
 	setAttr ".v" no;
-	setAttr ".t" -type "double3" 13.752991483185657 15.759632116027284 -22.081301355338745 ;
+	setAttr ".t" -type "double3" 13.752991483185657 15.759632116027284 -22.081301355338748 ;
 	setAttr ".r" -type "double3" -21.938352690714858 -1667.800000002642 0 ;
 createNode camera -s -n "perspShape" -p "persp";
 	rename -uid "23F3B796-0C45-CA4B-4ABE-DA84AFCDFAE8";
