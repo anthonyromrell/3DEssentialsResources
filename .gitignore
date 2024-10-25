@@ -8,3 +8,5 @@ Maya/scripts/.idea/.idea.scripts.dir/.idea/
 *.spp
 
 *.painter_lock
+
+Maya/scenes/Bottle1.usd
